@@ -1,16 +1,24 @@
-# Site settings
+---
 title: Transcend
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: transcenduw@gmail.com
-description: > # Transcend Engineering is a student organization dedicated to
-  inspiring, facilitating, and developing student innovations.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://transcend.engineering" # the base hostname & protocol for your site
+description: 'inspiring, facilitating, and developing student innovations.
+
+'
+baseurl: "/"
+url: http://transcend.engineering
 twitter_username: witranscend
-github_username:  transcend-engineering
+github_username: transcend-engineering
 facebook_username: transcendwi
 email_address: transcenduw@gmail.com
 sass:
   sass_dir: _sass
   style: compressed
-# Build settings
 markdown: kramdown
