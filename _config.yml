@@ -14,6 +14,7 @@ description: 'inspiring, facilitating, and developing student innovations.
 '
 baseurl: "/"
 url: http://transcend.engineering
+repository: https://github.com/briandennis/transcend
 twitter_username: witranscend
 github_username: transcend-engineering
 facebook_username: transcendwi
