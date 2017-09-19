@@ -1,0 +1,11 @@
+---
+pages:
+- test-2.md
+hide_body: false
+fields:
+- type: text
+  name: content
+  label: Content
+  description: The main content for the page
+  config:
+    required: true
